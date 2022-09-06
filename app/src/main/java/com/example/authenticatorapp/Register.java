@@ -58,7 +58,7 @@ public class Register extends AppCompatActivity {
                     return;
                 }
                 if(TextUtils.isEmpty(password)){
-                    mPassword.setError("Password is Required.");
+                    mPassword.setError("Password is Required......");
                     return;
                 }
                 if(password.length()<6){
